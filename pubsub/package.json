@@ -1,0 +1,29 @@
+{
+  "name": "image-streaming-app",
+  "version": "0.0.0",
+  "description": "coming soon",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anycoloryoulike84/image-streaming-app.git"
+  },
+  "author": "gm griffin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anycoloryoulike84/image-streaming-app/issues"
+  },
+  "homepage": "https://github.com/anycoloryoulike84/image-streaming-app#readme",
+  "dependencies": {
+    "axon": "^2.0.3",
+    "express": "^3.0.0",
+    "mongodb": "^2.2.28",
+    "nodemon": "^1.11.0",
+    "pubsub": "^3.2.1",
+    "redis": "^2.7.1",
+    "socket.io": "^2.0.3",
+    "underscore": "^1.8.3"
+  }
+}
