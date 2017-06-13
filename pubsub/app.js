@@ -1,3 +1,4 @@
+
 'use strict';
 
 var express = require('express');
@@ -17,12 +18,12 @@ app.listen(port, function(){
  *  Parse json data from incoming reuqests
  */
 
-app.use(express.json());
-
 /**
  *  Accept POST requests and then publish the body of the request
  */
-app.post('/', badges.save, badges.trim, badges.send);
+app.post('/', badges.save, badges.trim, badges.send, function(request,response){
+	response.send("done");
+});
 
 /**
  *  Get the most recent 10 badges
